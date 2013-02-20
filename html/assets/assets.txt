@@ -1,0 +1,2 @@
+d:./
+i:libgdx-logo.png

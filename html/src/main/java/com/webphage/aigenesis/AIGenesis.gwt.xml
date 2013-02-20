@@ -1,0 +1,12 @@
+<module rename-to='AIGenesis'>
+  <inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='com.webphage.aigenesis.html.AIGenesisHtml'/>
+  <set-configuration-property name="gdx.assetpath" value="${asset.input.dir},desktop/assets,../desktop/assets,../../../../desktop/assets/" />
+  <set-configuration-property name="gdx.assetoutputpath" value="${asset.output.dir},AIGenesis-0.0.1,src/main/webapp,./" />
+</module>
