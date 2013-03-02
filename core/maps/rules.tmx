@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="taucetif" tilewidth="10" tileheight="10">
+  <image source="sum.png" trans="008a76" width="640" height="780"/>
+  <terraintypes>
+   <terrain name="Dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="192" terrain="0,,0,"/>
+  <tile id="256" terrain="0,,0,0"/>
+  <tile id="320" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="regions" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENAAAIxLCzj2veKICEVsGSJVxT2wEMfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADALw1b8wET
+  </data>
+ </layer>
+ <layer name="input_dirt" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3z2UwY9xNSEDCNdMOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8tg7pAMU=
+  </data>
+ </layer>
+ <layer name="output_dirt" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7CR4F8zDjjhaRU0ATZd3wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4NIAmfgABg==
+  </data>
+ </layer>
+</map>

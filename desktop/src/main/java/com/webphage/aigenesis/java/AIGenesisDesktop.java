@@ -8,6 +8,6 @@ public class AIGenesisDesktop {
 	public static void main(String[] args) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.useGL20 = true;
-		new LwjglApplication(new AIGenesis(), config);
+		LwjglApplication app = new LwjglApplication(new AIGenesis(), config);
 	}
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="161" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="417" name="Woodland x3" tilewidth="32" tileheight="96">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="451" name="Woodland x2" tilewidth="32" tileheight="64">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="483" name="Woodland_x4" tilewidth="32" tileheight="128">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/Woodland_x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="499" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../../Downloads/tiled_examples-master/The Mana World/graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <layer name="set" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdlmFuwjAMhUPXrbBbpIyxa/YI3HiqFEueFdvPSYCJH091Q5P483NoDymlw4vqqMSP0BaQlfezted3LtrE+MRi1IdnsUqOhY3z2MtT5kv3N1CjOaQHk8FRq7UcQzl6eSTHRxHqBz3D86daRBl6WCwOz48l/c271wuLQ9sD4chFiB+eF5Fzg3rAmYhjrXBcHQ7JYPkwO5wex1HMl75s5bdZ8YP4LK+n5HNkVpceP6y+mhnHpQjpK7SnaJ3vch11znn9LA6vr7Te6uFoORuIH1ZftbBo+cveRHpJcnCtA/zw+n/0u7zmjWTj4yhDlCWat+WdxiGZRrN4OSF5W/2FcCzAHvfqqdqZaWGIKMLwVrTH9P/jrc97otUPpLdqLNpzLRwtvmjeaO/EqCyO0yAWxNdHS+bX4sE9GN6Loiwy5nl7vUHvyfwPOD5ZTN/vmY1ZXuRU55D8Wj3k3D2m7yKvNrLu/J7W/TH8QjhQyflrYM2tQyM5Mqhr0A/rWc2PHlGea9FXuZ4rLL17jc494smoPRC/XkG/FI3Ggw==
+  </data>
+ </layer>
+ <layer name="Collision" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlm0KhDAMRPX+t/Jk4g+hlLTJJJ1+aB8sCBvTedt09Tg2Gx/XOTqBnyf7mz+9jvbTPq3Je/byYPmkGdCafD9HuaS9an21tVt6oH6eeslby8baD+lsa32RjKV1UA8tT6nOcp90j5RNuu511mswZgrxsNZG/q8YMxXB0ht16eEgranVe2Zn5HkoZdW+b+3BcG/hYlmDCTJ3s84UAtsh2g/Jtco+lJ4VKzH7b2xhBQfvM3AEjLmW3lH+xJd9Z5rdGmnOFfJuuNz/XsPE
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyVlj1y1zAQxSUgEAJXIOECTHIBBk4AZ/QRfAQ1UEDjBgpoNITvNIEACVAgzV9v8vOznJBix7Is7e7b91bWEEKYiuVmQ3tObVxtNNMajRP2a++ENZzTfGpj96l4+j7gO3PI2J8QKyHOYJYRf4If+Z/CHBP3TJgbLXfGH7HuKua1IG7WwfMitl6+4sRrx7ipmXA5b++Kve9wRx+M6zVybuWbeQxhrh/OJ9s32lwK83yV04T9dfy92I9L1vTqQ060Ntm6ezGEvWIfw+a526y+77Zv9+O8fl4f8sW65nAxjmy+nEPmmmHUs/Y9KDn+Cn171L49b5g+WV4D4k5hjsO118PhWu/1MOcSxuToQ7FnLed9w8P3feCp3DBn17Nq6L1/GQ7iZ086Luavev5seb4u9rTk96TZrWKvVjg67XBNvbt+2TdrOLz/nV9yynnn4nH8f72dhuU/wPufGiAf14vPrbjEQXzMPdk69ma12tvCUO0gLjmuXLnWhFn1ThbLdUBcF2mJONj3yfwRX7JaV01txw23h+B3DccB+oP/DMfEnuG4pyXiEHaeI857TzMHDcO18jxp/pwv4RFm5pcQj9ru6WGNA+ejd96xrxXnJvq44qi6/VbGx2GjX++Nmn/t/+249DdgnMNcF+zxq+DIZuxdx6VcdZaqB9n/9f8hDtzXZP7Fjf9//XyRsec5Zp9ni5XDHOdgnOg/txeX/xP1g3hWH3DONaQ1/O6c1e9fin0udtThTGulW/a+9xGx9ExcZPPrOOTTeSJu5idMv4v9Kfam2Fdgki+e2eRcefDbwzi/g/gZy1qoHsLhOljrDeYgDmrebxsO2Ytid+OSY479zHJOqo54zoqLFOZa4ZmimrH+7MUxLLV2ZrnT/hrnKSz15OcAdev6EgbqRb6GlXEPK3kXNzvF78sVHFVfR8Y/9ci47CdqrGLR3YoY2Afk2LnXWuqLPcW+uAjL7bjUlHIhJs4lW0es1Lf7cT78bKU/Xyf86vFefySLm8M8N9U/48nvrDPzcE6YXw5zfomH/t3OWt534rkJg2vTNZWRi8fTu2owrvhwDpw3xmBO1HSd22l50z/1SX+8+1FTrP1k71yX8Z11d75kzrXHExbPy7nif6K+13uL7n49HrzGfubrTipuFJ/3YnI9YK1w8Z+tHOo95Ebc3EUUz+tHjokjhXmufKe+Wb+6P8ZzLPJHnzxXRxj7wM+hy8z1StypE8c1zr28y1csh3jnnDCqjqqPMNY+UA/ru2OdOvvYXzRxRQ74PoQ5n7rLn3TsOGzqwxrRn/e889XLhT5kwsxeSVjvOnQ+tEd8um3F5Tmo/Dnv/lhXP78H7PEakAueAeS0xxnPL+bKGMzH9eTccp3/i7hmwF7V+x+gPT5d
+  </data>
+ </layer>
+ <layer name="Fringe" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmG1OwzAMht0jtOUCMIl7Mz7+dZv2f1sFnADYBYCDEGu2EkJd56NdO4lHspp1zea3tlOnAP+MwYuxJdlrz/immMrDMLbGGrKtd74u7HjusI4VjR+N70/FaXxvjg/F5ehYgdVReTGoL0iHG48DWWg87sz3S692riaopS4dLVjfFz06OAfP4Xel/IefVy3YeLjXSLAWZjHRusY6ysLqaOk854ykg/MuhDUdtfuqIcWea3sD3fGoenSU9JuhMfBjNyTo45oMx3tjOwjLKz8eWp0c0t3sxI0t6+B47Mly1iuJNsnbMNBH1CDFo1R0IDFaJMrM+e9g+6gPOOU6x0Orc2TMnE9F8ld7fpwbrQ5T+o+YtbeLOmBuyDU5zC2nrmfkC/dIyIZMI/d+8vwh1iuGeySEn2tDg2uatC/070lq/4EaGhqPpUMit9ZzwJpw9928T49l6FrfkcWg9VDaM3aMOKTq+DJ+fBe2f3fzGmOU8p7EX+9j1v9QHUfhfFc83HPSvCGJ0fsGf+sAP3+C7bPYnuF37zUFUv3dRmh24xEzLwbsS0vax+GxUWfEcwnvezRwXcZcm/v70Fx+ADSMkmc=
+  </data>
+ </layer>
+</map>
